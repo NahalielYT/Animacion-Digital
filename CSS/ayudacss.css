@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Bebas+Neue|Bowlby+One+SC|Caveat|Cinzel|Fjalla+One|Josefin+Sans|Libre+Baskerville|Lobster|Luckiest+Guy|Neucha|Patrick+Hand|Satisfy&display=swap');
+
+
+#blog h1{
+	font-size: 55px;
+	font-family: 'Bebas Neue', cursive; 
+	color: black;
+	margin-left: 100px;
+}
+
+
+#blog .caja {
+	border: 2px;
+	background: #EBEEFF;
+	width: 800px;
+	height:1000px;
+	margin-top:150px; 
+	margin-left:100px ;
+	line-height: 23px;
+}
+
+#para9 {
+width: 300px;
+height: 300px;
+margin-left:80px ;
+float:left; 
+margin-top:150px; 
+}
+
+#hacha {
+width:300px ;
+height: 300px;
+margin-left: 130px;
+float: center;
+margin-top:150px; 
+}
+
+#edificios {
+width: 300px;
+height: 300px;
+margin-right:70px ;
+float:right; ;
+margin-top:150px; 
+}

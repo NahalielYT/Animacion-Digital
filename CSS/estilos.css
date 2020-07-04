@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya+Sans|Arsenal|Bevan|Delius+Unicase|Nunito+Sans|Overlock&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Bebas+Neue|Bowlby+One+SC|Caveat|Cinzel|Fjalla+One|Josefin+Sans|Libre+Baskerville|Lobster|Luckiest+Guy|Neucha|Patrick+Hand|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: open sans, sans serif;
+	background: #fff;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background: black;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+ .contenedor {
+	width: 98%;
+	margin: auto;
+}
+ 
+ h1 {
+ 	float: left;
+ 	font-family: 'Julius Sans One', sans-serif;
+ 	
+ }
+ 
+
+header .contenedor {
+	display: table;
+	background: black;
+}
+
+section {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+#bienvenidos p {
+	font-size:20px;
+	font-family: 'Josefin Sans', sans-serif; 
+	margin-left: 35px;
+	line-height: 10px;
+}
+
+#bienvenidos h2{
+	font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
+    margin-left: 35px;
+}
+ 
+ #bienvenidos img {
+ 	float: right;
+ 	width:300px ;
+ 	height:300px ;
+ 	margin-right: 60px;
+ 	margin-top: -10px; 
+ 	border-radius: 40px;
+ }
+#para3 {
+	float: left;
+	margin-top: 30px;
+	margin-left: 90px;
+	width: 300px ;
+	height: 250px;
+	border-radius: 50px;
+}
+
+footer .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 28px;
+	margin-top: 800px;
+}
+
+
+ .copy {
+ 	font-size: 20px;
+ }
+
+.sociales {
+	width: 110%;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 9pt;
+}
+
+.sociales a {
+	color: #333;
+	text-decoration: none;
+
+}
+
+@media (min-width: 1024px) {
+	.contenedor {
+		width: 1200px;
+	}
+}
